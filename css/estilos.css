@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -26,6 +31,10 @@ li a {
     text-decoration: none;
 }
 
-.activo {
+li a.activo {
+    background-color: coral;
+}
+
+li a:hover {
     background-color: coral;
 }
