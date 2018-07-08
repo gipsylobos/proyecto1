@@ -11,9 +11,9 @@
 <body>
     <div class="header">
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a class="activo" href="cursos.html">CURSOS</a></li>
-            <li><a href="alumnos.html">ALUMNOS</a></li>
+            <li><a href="index.php">HOME</a></li>
+            <li><a class="activo" href="cursos.php">CURSOS</a></li>
+            <li><a href="alumnos.php">ALUMNOS</a></li>
         </ul>
     </div>
     <div class="content">

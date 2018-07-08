@@ -11,9 +11,9 @@
 <body>
     <div class="header">
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="cursos.html">CURSOS</a></li>
-            <li><a class="activo" href="alumnos.html">ALUMNOS</a></li>
+            <li><a href="index.php">HOME</a></li>
+            <li><a href="cursos.php">CURSOS</a></li>
+            <li><a class="activo" href="alumnos.php">ALUMNOS</a></li>
         </ul>
     </div>
     <div class="content">
@@ -27,12 +27,12 @@
                 </thead>            
                 <tbody>
                     <tr>
-                        <td><a href= "alumno.html">Nombrealumno1</a></td>
+                        <td><a href= "alumno.php">Nombrealumno1</a></td>
                     </tr>
                 </tbody>   
                 <tbody>
                     <tr>
-                        <td><a href= "alumno.html">Nombrealumno2</a></td>
+                        <td><a href= "alumno.php">Nombrealumno2</a></td>
                     </tr>
                 </tbody>           
             </table>
