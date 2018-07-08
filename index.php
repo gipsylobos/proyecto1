@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bienvenido</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
-</head>
+<?php include 'parcial/cabecera.php' ?>
 <body>
     <div class="header">
         <ul>
@@ -17,7 +8,10 @@
         </ul>
     </div>
     <div class="content">
-        <h1>Bienvenido</h1>
+        <?php 
+            $suma = 1 + 1; 
+        ?>
+        <h1>la suma de 1 + 1 es <?php echo $suma ?> </h1>
     </div>
 </body>
 </html>
